@@ -80,7 +80,9 @@ export NUMBAPRO_LIBDEVICE=/usr/local/cuda/nvvm/libdevice
 #### 4. PYTHONPATH
 
 Add second.pytorch/ to your PYTHONPATH.
+```bash
 export PYTHONPATH=/location/of/second.pytorch/
+```
 
 ### Prepare dataset
 
@@ -104,8 +106,10 @@ Download KITTI dataset and create some directories first:
 ```
 
 Note: PointPillar's protos use ```KITTI_DATASET_ROOT=/data/sets/kitti_second/```.
+```bash
 export KITTI_DATASET_ROOT=/data/sets/kitti_second/
 # added to root, following organization for the above protos and tree above
+```
 #### 2. Create kitti infos:
 
 ```bash
