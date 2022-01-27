@@ -111,11 +111,11 @@ export KITTI_DATASET_ROOT=/data/sets/kitti_second/
 # added to root, following organization for the above protos and tree above
 ```
 #### 2. Create kitti infos:
-arguments:
-data_path: points to KITTI dataset location
-save_path: points to where to save the generated info files (default = data_path)
-create_trainval: not sure what does (default False)
-relative_path: (default True)
+arguments:\n
+data_path: points to KITTI dataset location\n
+save_path: points to where to save the generated info files (default = data_path)\n
+create_trainval: not sure what does (default False)\n
+relative_path: (default True)\n
 ```bash
 python create_data.py create_kitti_info_file --data_path=$KITTI_DATASET_ROOT
 ```
